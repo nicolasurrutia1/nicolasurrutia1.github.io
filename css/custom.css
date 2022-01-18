@@ -1,3 +1,9 @@
+#nav .nav-item .nav-link{
+    color: white;
+}
+#nav .nav-item .nav-link:hover{
+    color: #dedede;
+}
 .logoNav{
     border-radius: 50%;
     width: 50px;
@@ -10,4 +16,12 @@
 }
 .listNav{
     align-items: center;
+}
+
+.links{
+    /* color: red; */
+    text-decoration: none;
+}
+.links:hover{
+    text-decoration: underline;
 }
