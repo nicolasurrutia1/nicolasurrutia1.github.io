@@ -37,6 +37,8 @@
 .photoMine{
     width: 70%;
     box-shadow: 5px 5px 8px 5px #212529;
+    cursor: pointer;
+    opacity: 0;
 }
 
 .btnCustom{
