@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 #nav .nav-item .nav-link{
     color: white;
 }
