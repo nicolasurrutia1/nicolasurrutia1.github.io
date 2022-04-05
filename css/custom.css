@@ -50,10 +50,27 @@ html{
     color: white;
     padding: 4% 5%; 
     border-radius: 15%;
-    text-decoration: none;    
+    text-decoration: none;   
+    width: auto; 
 }
 
 .btnCustom:hover{    
     color: white;
     text-decoration: underline;
+}
+
+.maxHeightLogo{
+    max-height: 80px;
+    padding: 1%;
+}
+
+.textAnim{
+    opacity: 0;
+}
+
+@media (max-width: 991px) {
+    .maxHeightLogo {
+        max-height: 65px;
+        padding: 1.5%;
+    }
 }

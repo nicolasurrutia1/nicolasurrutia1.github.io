@@ -1,6 +1,6 @@
 // document.getElementById("demo").onclick = function() {myFunction()};
 let photoRotation=360;
-gsap.to(".photoMine", { duration: 1, rotationY: photoRotation, opacity: 1 });
+gsap.to(".photoMine", {delay:1, duration: 1, rotationY: photoRotation, opacity: 1 });
 let photoMine = document.getElementById("photoMine");
 photoMine.addEventListener("click", function (e) {
     if(photoRotation ===360){        
@@ -11,6 +11,8 @@ photoMine.addEventListener("click", function (e) {
         gsap.to(".photoMine", {duration: 1, rotationY: photoRotation+360, opacity: 1});
     }    
 });
+
+gsap.to(".textAnim", {delay:1, duration: 1, opacity: 1});
 
 let AboutMeClick = document.getElementById("AboutMeClick");
 let WorkClick = document.getElementById("WorkClick");
