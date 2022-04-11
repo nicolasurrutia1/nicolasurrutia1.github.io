@@ -38,7 +38,7 @@ html{
 }
 
 .photoMine{
-    width: 70%;
+    width: 100%;
     box-shadow: 5px 5px 8px 5px #212529;
     cursor: pointer;
     opacity: 0;
@@ -60,8 +60,13 @@ html{
 }
 
 .maxHeightLogo{
-    max-height: 80px;
-    padding: 1%;
+    max-height: 80px;    
+    padding: 5%;
+}
+
+.centerDivImg{
+    display: flex;
+    justify-content: center;
 }
 
 .textAnim{
