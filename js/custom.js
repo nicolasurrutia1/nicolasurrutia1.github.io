@@ -12,7 +12,7 @@ photoMine.addEventListener("click", function (e) {
     }    
 });
 
-gsap.to(".textAnim", {delay:1, duration: 1, opacity: 1});
+gsap.to(".textAnim", {delay:0.5, duration: 1, opacity: 1});
 
 let AboutMeClick = document.getElementById("AboutMeClick");
 let WorkClick = document.getElementById("WorkClick");
