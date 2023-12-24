@@ -1,5 +1,30 @@
+/* Regular font */
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('../fonts/CrimsonText-Regular.ttf') format('truetype');    
+    font-weight: normal;
+    font-style: normal;
+}
+/* Bold font */
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('../fonts/CrimsonText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+/* Italic font */
+@font-face {
+    font-family: 'Crimson Text';
+    src: url('../fonts/CrimsonText-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
 html{
     scroll-behavior: smooth;
+}
+body {
+    font-family: 'Crimson Text', sans-serif;
 }
 #nav .nav-item .nav-link{
     color: white;
