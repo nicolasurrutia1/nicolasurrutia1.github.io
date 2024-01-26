@@ -16,11 +16,16 @@ gsap.to(".textAnim", {delay:0.5, duration: 1, opacity: 1});
 
 let AboutMeClick = document.getElementById("AboutMeClick");
 let WorkClick = document.getElementById("WorkClick");
+let skillClick = document.getElementById("skillClick");
 AboutMeClick.addEventListener("click",function(){
-    let aboutMeDiv = document.getElementById("AboutUsDiv");
+    let aboutMeDiv = document.getElementById("AboutMe");
     aboutMeDiv.scrollIntoView({behavior: "smooth"});
 })
 WorkClick.addEventListener("click",function(){
     let workDiv = document.getElementById("workDiv");
     workDiv.scrollIntoView({behavior: "smooth"});
+})
+skillClick.addEventListener("click",function(){
+    let skillDiv = document.getElementById("skillDiv");
+    skillDiv.scrollIntoView({behavior: "smooth"});
 })

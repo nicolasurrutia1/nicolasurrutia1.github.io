@@ -26,6 +26,9 @@ html{
 body {
     font-family: 'Crimson Text', sans-serif;
 }
+p{
+    font-size: 18px;
+}
 #nav .nav-item .nav-link{
     color: white;
 }
@@ -40,7 +43,7 @@ body {
     align-items: center;
 }
 .Titlenav{
-    margin-left: 4%;
+    margin-left: 5%;
 }
 .listNav{
     align-items: center;
@@ -77,6 +80,7 @@ body {
     border-radius: 15%;
     text-decoration: none;   
     width: auto; 
+    border: 0;
 }
 
 .btnCustom:hover{    
@@ -102,5 +106,14 @@ body {
     .maxHeightLogo {
         max-height: 65px;
         padding: 1.5%;
+    }
+    h1{
+        font-size: 42px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    p{
+        font-size: 25px;
     }
 }
