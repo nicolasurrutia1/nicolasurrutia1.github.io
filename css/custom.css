@@ -29,6 +29,9 @@ body {
 p{
     font-size: 18px;
 }
+main{
+    margin-top: 85px;
+}
 #nav .nav-item .nav-link{
     color: white;
 }
@@ -89,13 +92,18 @@ p{
 }
 
 .maxHeightLogo{
-    max-height: 60px;    
+    max-height: 120px;    
     padding: 5%;
 }
 
-.centerDivImg{
+.centerLogo{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.logoFigCaption{
+    text-align: center;
 }
 
 .textAnim{

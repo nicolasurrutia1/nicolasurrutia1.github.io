@@ -8,18 +8,21 @@
     <title>Nicolas Urrutia - Front-end Developer Portfolio</title>
     <link rel="icon" type="image/x-icon" href="img/codeLogo.png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/splide.min.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/gsap.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/splide.min.js"></script>
     <script src="js/custom.js" defer></script>
 </head>
 
 <body>
     <header>
-        <nav id="nav" class="navbar navbar-expand-xs bg-dark navbar-dark">
+        <nav id="nav" class="navbar navbar-expand-xs bg-dark navbar-dark fixed-top">
             <div class="container p-1">
                 <a class="navbar-brand" href="index.html">
-                    <img src="img/codeLogo.png" class="logoNav" alt="code logo"> <span class="Titlenav">Nicolas Urrutia - Front-end Developer</span>
+                    <img src="img/codeLogo.png" class="logoNav" alt="code logo"> <span class="Titlenav">Nicolas Urrutia
+                        - Front-end Developer</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
@@ -43,6 +46,11 @@
     </header>
     <main>
         <div class="container mt-3">
+            <section>
+                <div class="row">
+
+                </div>
+            </section>
             <section>
                 <div class="row">
                     <div id="AboutMe" class="col-12 mt-3 mb-3 textAnim">
@@ -106,7 +114,8 @@
                         <h2>My work</h2>
                     </div>
                     <div class="row mt-3 ">
-                        <div class="col-12 col-md-6 col-lg-4 myCard d-flex justify-content-center mb-5 my-md-3 p-md-3 p-lg-3">
+                        <div
+                            class="col-12 col-md-6 col-lg-4 myCard d-flex justify-content-center mb-5 my-md-3 p-md-3 p-lg-3">
                             <div class="prevProject">
                                 <figure>
                                     <img src="img/preview.PNG" class="img-fluid mb-2" alt="proyect sreenshot">
@@ -116,7 +125,8 @@
                                 <button href="#" target="_blank" class="btnCustom">Visitar</button>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 myCard d-flex justify-content-center mb-5 my-md-4 p-md-3 p-lg-3">
+                        <div
+                            class="col-12 col-md-6 col-lg-4 myCard d-flex justify-content-center mb-5 my-md-4 p-md-3 p-lg-3">
                             <div class="prevProject">
                                 <figure>
                                     <img src="img/preview.PNG" class="img-fluid mb-2" alt="proyect sreenshot">
@@ -126,7 +136,8 @@
                                 <button href="#" target="_blank" class="btnCustom">Visitar</button>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4 myCard d-flex justify-content-center mb-5 my-md-4 p-md-3 p-lg-3">
+                        <div
+                            class="col-12 col-md-6 col-lg-4 myCard d-flex justify-content-center mb-5 my-md-4 p-md-3 p-lg-3">
                             <div class="prevProject">
                                 <figure>
                                     <img src="img/preview.PNG" class="img-fluid mb-2" alt="proyect sreenshot">
@@ -135,7 +146,7 @@
                                 <p>Some description</p>
                                 <button href="#" target="_blank" class="btnCustom">Visitar</button>
                             </div>
-                        </div>                    
+                        </div>
                     </div>
                 </div>
             </section>
@@ -143,15 +154,75 @@
                 <div class="row textAnim">
                     <div id="skillDiv" class="col-12 mt-5 mb-3 my-lg-3">
                         <h2>Skills</h2>
-                        
+                        <div class="splide" aria-label="Splide Basic HTML Example">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/HTML-logo.svg" class="img-fluid maxHeightLogo"
+                                                alt="HTML logo">
+                                            <figcaption class="logoFigCaption">HTML</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/CSS-logo.svg" class="img-fluid maxHeightLogo" alt="CSS logo">
+                                            <figcaption class="logoFigCaption">CSS</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/JavaScript-logo.svg" class="img-fluid maxHeightLogo"
+                                                alt="JavaScript logo">
+                                            <figcaption class="logoFigCaption">JavaScript</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/React-logo.svg" class="img-fluid maxHeightLogo"
+                                                alt="React logo">
+                                            <figcaption class="logoFigCaption">React</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/JQuery-logo.svg" class="img-fluid maxHeightLogo"
+                                                alt="JQuery logo">
+                                            <figcaption class="logoFigCaption">JQuery</figcaption>
+                                        </figure>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/csharp-logo.svg" class="img-fluid maxHeightLogo"
+                                                alt="csharp logo">
+                                            <figcaption class="logoFigCaption">C#</figcaption>
+                                        </figure>                                        
+                                    </li>
+                                    <li class="splide__slide">
+                                        <figure class="centerLogo">
+                                            <img src="img/sql-logo.svg" class="img-fluid maxHeightLogo"
+                                                alt="SQL logo">
+                                            <figcaption class="logoFigCaption">SQL</figcaption>
+                                        </figure>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
         </div>
-    </main>
-    <footer>
+    </main>   
+    <footer class="bg-dark text-light p-4">
         <div class="container">
-            <p>Thank you for visiting! Feel free to explore more on my LinkedIn profile and GitHub.</p>
+            <div class="row">
+                <div class="col-md-8">
+                    <p>Thank you for visiting! Feel free to explore more on my LinkedIn profile and GitHub.</p>
+                </div>
+                <div class="col-md-4">
+                                        
+                </div>
+            </div>
         </div>
     </footer>
 </body>
