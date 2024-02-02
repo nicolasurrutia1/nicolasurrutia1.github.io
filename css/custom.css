@@ -29,14 +29,28 @@ body {
 p{
     font-size: 18px;
 }
-main{
-    margin-top: 85px;
+section{
+    margin-top: 5%;
+}
+footer{
+    margin-top: 5%;
+}
+#particles-js{
+    background-color: #212529;
 }
 #nav .nav-item .nav-link{
     color: white;
 }
 #nav .nav-item .nav-link:hover{
     color: #dedede;
+    text-decoration: underline;
+}
+.navbar-dark .navbar-toggler{
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-dark .navbar-toggler-icon{
+    background-image: url('../img/hamIco.svg');
 }
 .logoNav{
     border-radius: 50%;
@@ -72,7 +86,7 @@ main{
     width: 100%;
     box-shadow: 5px 5px 8px 5px #212529;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
 }
 
 .btnCustom{
@@ -102,12 +116,16 @@ main{
     justify-content: center;
 }
 
+.centerLogo img{
+    margin: auto;
+}
+
 .logoFigCaption{
     text-align: center;
 }
 
-.textAnim{
-    opacity: 0;
+.aboutMe-Text{
+    width: 85%;
 }
 
 @media (max-width: 991px) {
@@ -124,4 +142,16 @@ main{
     p{
         font-size: 25px;
     }
+    section{
+        margin-top: 10%;
+    }
+    .photoMine{
+        height: 400px;
+    }
+    .aboutMe-Text{
+        width: 100%;
+    }
+    /* .logoNav{
+
+    } */
 }

@@ -1,69 +1,4 @@
-// document.getElementById("demo").onclick = function() {myFunction()};
-gsap.registerPlugin(ScrollTrigger)
-gsap.from(".fade-in-01", {
-  opacity: 0,
-  duration: 1.5,
-  scrollTrigger: {
-    trigger: ".fade-in-01",
-    start: "top 70%",
-    // markers: true,
-  },
-});
-gsap.from(".fade-in-02", {
-  opacity: 0,
-  duration: 1.5,
-  scrollTrigger: {
-    trigger: ".fade-in-02",
-    start: "top 70%",
-  },
-});
-gsap.from(".fade-in-03", {
-  opacity: 0,
-  duration: 1.5,
-  scrollTrigger: {
-    trigger: ".fade-in-03",
-    start: "top 70%",
-  },
-});
-
-gsap.registerPlugin();
-
-let rotated = false;
-document.getElementById("photoMine").addEventListener("click", function () {
-  rotated = !rotated;
-  gsap.to("#photoMine", {
-    duration: 1,
-    rotationY: rotated ? 180 : 0,
-    ease: "power2.inOut",
-  });
-});
-
-let AboutMeClick = document.getElementById("AboutMeClick");
-let WorkClick = document.getElementById("WorkClick");
-let skillClick = document.getElementById("skillClick");
-AboutMeClick.addEventListener("click", function () {
-  let aboutMeDiv = document.getElementById("AboutMe");
-  aboutMeDiv.scrollIntoView({ behavior: "smooth" });
-})
-WorkClick.addEventListener("click", function () {
-  let workDiv = document.getElementById("workDiv");
-  workDiv.scrollIntoView({ behavior: "smooth" });
-})
-skillClick.addEventListener("click", function () {
-  let skillDiv = document.getElementById("skillDiv");
-  skillDiv.scrollIntoView({ behavior: "smooth" });
-})
-
-var splide = new Splide('.splide', {
-  type: 'loop',
-  perPage: 4,
-  perMove: 1,
-  autoplay: true,
-  interval: 3000
-});
-splide.mount();
-
-particlesJS("particles-js", {
+{
   "particles": {
     "number": {
       "value": 250,
@@ -73,7 +8,7 @@ particlesJS("particles-js", {
       }
     },
     "color": {
-      "value": "#fff"
+      "value": "#ffffff"
     },
     "shape": {
       "type": "star",
@@ -172,4 +107,4 @@ particlesJS("particles-js", {
     }
   },
   "retina_detect": true
-});
+}
