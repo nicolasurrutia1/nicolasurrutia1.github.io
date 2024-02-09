@@ -2,7 +2,7 @@
 gsap.registerPlugin(ScrollTrigger)
 gsap.from(".fade-in-01", {
   opacity: 0,
-  duration: 1.5,
+  duration: 1,
   scrollTrigger: {
     trigger: ".fade-in-01",
     start: "top 70%",
@@ -11,7 +11,7 @@ gsap.from(".fade-in-01", {
 });
 gsap.from(".fade-in-02", {
   opacity: 0,
-  duration: 1.5,
+  duration: 1,
   scrollTrigger: {
     trigger: ".fade-in-02",
     start: "top 70%",
@@ -19,7 +19,7 @@ gsap.from(".fade-in-02", {
 });
 gsap.from(".fade-in-03", {
   opacity: 0,
-  duration: 1.5,
+  duration: 1,
   scrollTrigger: {
     trigger: ".fade-in-03",
     start: "top 70%",
