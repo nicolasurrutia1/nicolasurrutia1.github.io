@@ -41,6 +41,20 @@ footer{
 #particles-js{
     background-color: #212529;
     height: 100vh;
+    position: relative;
+}
+.bannerIntro{
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 40%;
+}
+.bannerIntro p{
+    margin: 0;
+    font-size: 24px;
+}
+.bannerIntro h1{   
+    font-size: 40px;
 }
 #nav .nav-item .nav-link{
     color: white;
