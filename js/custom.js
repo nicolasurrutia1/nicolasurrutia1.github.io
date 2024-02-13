@@ -41,15 +41,18 @@ document.getElementById("photoMine").addEventListener("click", function () {
 let AboutMeClick = document.getElementById("AboutMeClick");
 let WorkClick = document.getElementById("WorkClick");
 let skillClick = document.getElementById("skillClick");
-AboutMeClick.addEventListener("click", function () {
+AboutMeClick.addEventListener("click", function (event) {
+  event.preventDefault();
   let aboutMeDiv = document.getElementById("AboutMe");
   aboutMeDiv.scrollIntoView({ behavior: "smooth" });
 })
-WorkClick.addEventListener("click", function () {
+WorkClick.addEventListener("click", function (event) {
+  event.preventDefault();
   let workDiv = document.getElementById("workDiv");
   workDiv.scrollIntoView({ behavior: "smooth" });
 })
-skillClick.addEventListener("click", function () {
+skillClick.addEventListener("click", function (event) {
+  event.preventDefault();
   let skillDiv = document.getElementById("skillDiv");
   skillDiv.scrollIntoView({ behavior: "smooth" });
 })

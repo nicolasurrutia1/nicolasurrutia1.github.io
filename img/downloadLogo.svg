@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="mdi-download-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<g>
+	<path fill="#fff" d="M256,0c140.8,0,256,115.2,256,256S396.8,512,256,512S0,396.8,0,256S115.2,0,256,0 M153.6,384h204.8v-51.2H153.6V384
+		 M358.4,204.8h-64V102.4h-76.8v102.4h-64L256,307.2L358.4,204.8z"/>
+</g>
+</svg>
