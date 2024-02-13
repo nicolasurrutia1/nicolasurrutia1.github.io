@@ -159,6 +159,15 @@ footer{
 }
 
 @media (max-width: 991px) {
+    .bannerIntro{
+        left: 35%;
+    }
+    .bannerIntro p{        
+        font-size: 20px;
+    }
+    .bannerIntro h1{   
+        font-size: 40px;
+    }
     .maxHeightLogo {
         max-height: 65px;
         padding: 1.5%;
@@ -167,16 +176,16 @@ footer{
         font-size: 42px;
     }
     h2{
-        font-size: 36px;
+        font-size: 34px;
     }
     p{
-        font-size: 25px;
+        font-size: 20px;
     }
     section{
         margin-top: 10%;
     }
     .photoMine{
-        height: 400px;
+        height: 300px;
     }
     .aboutMe-Text{
         width: 100%;
@@ -184,4 +193,17 @@ footer{
     /* .logoNav{
 
     } */
+}
+@media (max-width: 500px){
+    .bannerIntro{
+        left: 20%;
+    }
+    .photoMine{
+        height: 200px;
+    }
+}
+@media (max-width: 380px){
+    .bannerIntro{
+        left: 15%;
+    }
 }
