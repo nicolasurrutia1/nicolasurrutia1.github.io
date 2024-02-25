@@ -110,6 +110,7 @@ footer{
 }
 .codeInProgress{
     width: 350px;
+    max-height: 300px;
 }
 .btnCustom{
     display: inline-block;
