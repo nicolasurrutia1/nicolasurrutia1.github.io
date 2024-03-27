@@ -62,7 +62,7 @@ var splide = new Splide('.splide', {
   perPage: 4,
   perMove: 1,
   autoplay: true,
-  interval: 2000
+  interval: 3500
 });
 splide.mount();
 

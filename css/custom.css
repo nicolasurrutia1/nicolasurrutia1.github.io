@@ -74,8 +74,8 @@ footer{
     background-image: url('../img/hamIco.svg');
 }
 .logoNav{    
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     display: inline-flex ;
     align-items: center;
 }
@@ -102,7 +102,7 @@ footer{
     min-height: 320px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .photoMine{
@@ -122,7 +122,7 @@ footer{
     padding: 4% 5%; 
     border-radius: 15%;
     text-decoration: none;   
-    width: auto; 
+    width: 100px; 
     border: 0;
 }
 
@@ -162,6 +162,14 @@ footer{
     color: #fff;
 }
 
+.splide__arrow{
+    background: #212529 !important;
+}
+
+.splide__arrow svg{
+    fill: white;
+}
+
 @media (max-width: 991px) {
     .bannerIntro{
         left: 35%;
@@ -194,9 +202,7 @@ footer{
     .aboutMe-Text{
         width: 100%;
     }
-    /* .logoNav{
 
-    } */
 }
 @media (max-width: 500px){
     .bannerIntro{
